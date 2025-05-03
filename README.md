@@ -1,13 +1,20 @@
 <div align="center">
 
+    
 # ColorOS 移植项目
 
 简体中文&nbsp;&nbsp;|&nbsp;&nbsp;[English](/README_en-US.md) 
 
 </div>
+## WIP 完整版开源预计5月中旬。
 
 ## 简介
-- ColorOS OnePlus8T 一键自动移植打包
+- ColorOS一键自动移植打包
+- 将支持机型:
+- 一加8 一加8Pro 一加8 一加9R
+- 一加9 一加9Pro
+- 一加Ace 3V 
+- Oppo Find X3 Find X3Pro
 
 
 ## 测试机型及版本
