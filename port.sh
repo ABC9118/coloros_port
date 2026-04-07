@@ -1578,7 +1578,7 @@ if [[ -d devices/common/GTMode/overlay ]] && [[ $port_android_version != "16" ]]
     fi
 fi
 
-if [[ port_vendor_brand == "realme" ]] && [[ $regionmark == "CN" ]] ;then
+if [[ $port_vendor_brand == "realme" ]] && [[ $regionmark == "CN" ]] ;then
     add_feature_v2 oplus_feature "oplus.software.support.gt.mode^GT模式" 
     add_feature_v2 app_feature "com.android.settings.device_rm^Realme设备，显示GT模式需要"
     add_feature_v2 app_feature "com.oplus.smartsidebar.space.roulette.support^AI传送门" \
