@@ -1541,7 +1541,7 @@ fi
 
 aimemory_app=$(find build/portrom -type f -name "AIMemory.apk")
 
-if [[ ! -f $aimemory_app ]] then
+if [[ ! -f $aimemory_app ]]; then
     
     if [[ $regionmark == "CN" ]];then 
         if ensure_resource_available "devices/common/ai_memory.zip"; then
