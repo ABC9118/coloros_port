@@ -1560,7 +1560,7 @@ for pkg in com.oplus.aimemory com.oplus.appbooster; do
     fi
 done
 
-if [[ ! -d build/portrom/images/my_product/etc/aisubsystem ]] then
+if [[ ! -d build/portrom/images/my_product/etc/aisubsystem ]]; then
      if [[ $regionmark != "CN" ]];then 
          if ensure_resource_available "devices/common/ai_memory_in/aisubsystem.zip"; then
             unzip -o devices/common/ai_memory_in/aisubsystem.zip -d build/portrom/images/
